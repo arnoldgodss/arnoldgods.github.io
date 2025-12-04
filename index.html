@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kişisel Profil</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: #1a1a1a;
+            color: #ffffff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            text-align: center;
+            padding: 2rem;
+            background: #2d2d2d;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+            width: 300px;
+        }
+        .profile-img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background-color: #444;
+            margin-bottom: 1rem;
+            object-fit: cover;
+        }
+        h1 {
+            font-size: 1.5rem;
+            margin: 0.5rem 0;
+        }
+        p {
+            color: #aaa;
+            margin-bottom: 2rem;
+        }
+        .link-btn {
+            display: block;
+            background-color: #333;
+            color: white;
+            text-decoration: none;
+            padding: 12px;
+            margin: 8px 0;
+            border-radius: 8px;
+            transition: background 0.3s;
+            border: 1px solid #444;
+        }
+        .link-btn:hover {
+            background-color: #555;
+            border-color: #666;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <img src="https://via.placeholder.com/100" alt="Profil Resmi" class="profile-img">
+        
+        <h1>İsim Soyisim</h1>
+        <p>Yazılım Geliştirici & Meraklı</p>
+
+        <a href="https://github.com/kullaniciadi" class="link-btn">GitHub</a>
+        <a href="https://twitter.com/kullaniciadi" class="link-btn">Twitter / X</a>
+        <a href="mailto:email@adresin.com" class="link-btn">E-posta Gönder</a>
+    </div>
+
+</body>
+</html>
